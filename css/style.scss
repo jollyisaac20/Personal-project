@@ -11,3 +11,27 @@
     background-position: 0% 100%, center;
     height: 75vh;
 }
+
+@media (max-width: 480px) {
+.banner{
+    background-size: 100% 150px, cover;
+    
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .banner{
+        background-size: 100% 200px, cover;
+        
+        }
+        
+    }
+
+    @media (min-width: 1200px) {
+        .banner{
+            background-size: 100% 500px, cover;
+            
+            }
+            
+        }
